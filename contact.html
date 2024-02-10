@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Contact Details</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <ul>
+        <li>email: paul@dulcine.net</li>
+        <li>Phone: 010-6285-4382</li>
+        <li>Adress: 인천 중구 송산로 9</li>
+    </ul>
+    <hr noshade>
+    <form action="mailto:paul@dulcine.net" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td>
+                    <label>Your Name: </label>
+                </td>
+                <td>
+                    <input type="text" name="yourName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Your Email: </label>
+                </td>
+                <td>
+                    <input type="email" name="yourEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Your message: </label>
+                </td>
+                <td>
+                    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save">
+                </td>
+                <td></td>
+            </tr>
+        </table>        
+    </form>
+</body>
+</html>
